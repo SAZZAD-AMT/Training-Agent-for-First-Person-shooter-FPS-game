@@ -13,10 +13,10 @@
 we propose a new framework for training vision-based agent for First-Person Shooter (FPS) Game, in particular Doom.  Our model is simple in design and only uses game states from the AI side, rather than using opponents information.
 
 # 3.Paper statement :
-```
+
 Doom is a 1993 First-Person Shooter (FPS) game in which a player fights against other computer controlled agents or human players in an adversarial 3D environment. Previous works on FPS AI focused on using hand-tuned state machines and privileged information, the geometry of the map, the precise location of all players, to design playable agents.
 In this paper, we train an AI agent in Doom with a framework that based on A3C with convolutional neural networks (CNN). This model uses only the recent 4 frames and game variables from the AI side, to predict the next action of the agent and the value of the current situation. The goal of  Reinforcement Learning (RL) is to train an agent so that its behavior maximizes/minimizes expected future rewards/penalties it receives from a given environment. If we use Doom as a reinforcement learning platform, In Doom, the player controls the agent to fight against enemies in a 3D environment. The agent can only see the environment from his viewpoint and thus receives partial information upon which it makes decisions. On modern computers, the original Doom runs in thousands of frames per second, making it suitable as a platform for training AI agent. If we use Doom as a reinforcement learning platform for an AI agent in Doom, the player controls the agent to fight against enemies in a 3D environment. The agent can only see the environment from his viewpoint and thus receives partial information upon which it makes decisions. On modern computers, the original Doom runs in thousands of frames per second, making it suitable as a platform for training AI agent.
-```
+
 
 4.Methodology :
 This paper is completely based on a number of quality journal paper. So most of the information will be collected from various paper.
